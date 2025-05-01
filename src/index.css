@@ -34,6 +34,9 @@ nav > span {
 
 main {
     padding: 60px 30px;
+    background-image: url(/src/assets/react.svg);
+    background-repeat: no-repeat;
+    background-position: right 70%;
 }
 
 main > h1 {
@@ -41,12 +44,16 @@ main > h1 {
     font-size: 2.4rem;
 }
 
-.facts-list {
+.main-list {
     margin-top: 46px;
     max-width: 400px;
 }
 
-.facts-list > li {
+.main-list > li {
     padding-block: 10px;
     line-height: 19px;
+}
+.main-list>li::marker{
+    color: #61DAFB;
+    font-size: 1.5rem;
 }
